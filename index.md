@@ -211,6 +211,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endif %}
 
 
+
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -235,9 +236,10 @@ and our administrator may contact you if we need any extra information.</h4>
 </p>
 {% endif %}
 
-<hr/><hr/><hr/>
+
 
 {% comment %}
+<hr/><hr/><hr/>
   SYLLABUS
 
   Show what topics will be covered.
